@@ -57,7 +57,7 @@ const Footer = () =>{
             </div>
         </div>
         <div>
-             <p className="right">All right recive by ©️ 2023 Demaze technology.</p>
+             <p className="right">All right recive by ©️ Demaze technology 2021-2022.</p>
         </div>
         </> 
     )
