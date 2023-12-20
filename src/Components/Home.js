@@ -3,6 +3,7 @@ import "./HomeStyle.css";
 import TableData from "../Components/TableData.js"
 import Footer from "./Footer.js";
 import Movinglogo from "./Movinglogos.js";
+import AboutUs from "./AboutUs.js"
 
 const Home = () => {
   return (
@@ -15,15 +16,14 @@ const Home = () => {
             services to B2B Saas, VC's, Start-up's, <br />
             and E-commerce
           </p>
-
           <div className="your">
             YOUR TRUSTED PARTNER FOR STRATEGY, BRAND, DESIGN, & DEV
           </div>    
         </div>
           <Movinglogo/>
           <TableData/>
-        <Footer/>
-
+          <AboutUs/>
+          <Footer/>
       </div>
     </>
   );

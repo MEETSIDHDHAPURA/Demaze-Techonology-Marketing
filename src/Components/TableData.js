@@ -11,13 +11,13 @@ const TableData = () => {
   return (
     <>
       <div className="Product">
-        <p>Product</p>
+        <p>Services</p>
       </div>
       <table>
         <tr>
-          <th>Suite</th>
-          <th>Growth</th>
-          <th>Unlimited</th>
+          <th>Web <br/> Development</th>
+          <th>App <br/> Development</th>
+          <th>Games <br/> Development</th>
           <th>
             Figma to <br />
             webflow

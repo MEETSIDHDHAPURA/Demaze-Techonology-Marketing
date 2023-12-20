@@ -1,5 +1,6 @@
 .text{
-    margin: 0 22%;
+    margin: 5% 22% 0% 22%; 
+    
 }
 .enterprise{
     background: rgb(255, 136, 0);
@@ -12,10 +13,44 @@
     font-size: 3rem;
     font-weight: 600;
     font-family: Libre Baskerville, serif ;
+    animation: 1.2s linear;
+    animation-name: text;
 }
 .your{
     color: white;
     font-family: Libre Baskerville, serif ;
+    animation: 2.5s linear;
+    animation-name: text;
+    font-weight: 600;
 }
 
-
+@keyframes text{
+    from{
+        opacity: 0;
+        transform: translateX(15%);
+    }
+    25%{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+@keyframes text{
+    from{
+        opacity: 0;
+        transform: translateX(40%);
+    }
+    20%{
+        opacity: 0;
+    }25%{
+        opacity: 0;
+    }30%{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}

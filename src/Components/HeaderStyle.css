@@ -1,6 +1,30 @@
 html body{
     background: #000;
 }
+.faqs{
+    color: aliceblue;
+    text-decoration: none;
+}
+.home-Header{
+    color: aliceblue;
+    text-decoration: none;
+}
+.ourservices{
+    color: aliceblue;
+    text-decoration: none;
+}
+.aboutus{
+    color: aliceblue;
+    text-decoration: none;
+}
+.blogs{
+    color: aliceblue;
+    text-decoration: none;
+}
+.contact{
+    color: aliceblue;
+    text-decoration: none;
+}
 .Header{
     margin-top: 4rem;
     display: flex;
@@ -15,7 +39,6 @@ html body{
     font-family: Libre Baskerville, serif ;
 }
 .Logo{
-    padding-top: 1rem;
     width: 30%;
     padding-left: 7rem;
 }
