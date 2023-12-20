@@ -1,0 +1,117 @@
+
+table{
+    margin: 7rem 0rem 0rem 22.7rem;
+}
+table , td ,th {
+    border: 1px solid rgba(255, 255, 255, 0.265);
+    color: rgba(255, 255, 255, 0.674);
+}
+table {
+    border-collapse: collapse;
+    width: 76%;
+  }
+td {
+    font-size: 1.3rem;
+    padding: 2rem 3rem 2rem 4rem ;
+    height: 400px;
+    vertical-align: top;
+    font-family: Libre Baskerville, serif ;
+}
+th{
+    font-size: 2rem;
+}
+.Circles{
+    margin-left: 2rem;
+    margin-top: 12.8rem;
+    width: 90px;
+}
+.Square{
+    margin-left: 2rem;
+    margin-top: 14.5rem;
+}
+.Toy{
+    margin-left: 2rem;
+    margin-top: 14.7rem;
+}
+.Triangle{
+    width: 80px;
+    height: 80px;
+    margin-left: 2rem;
+    margin-top: 15.6rem;
+}
+.Product{
+    color: white;
+    font-family: Libre Baskerville, serif ;
+    font-size: 1.5rem;
+    writing-mode: vertical-rl;
+    position: absolute;
+    padding-top: 7.6rem;
+    padding-left: 15rem;
+    cursor: pointer;
+}
+.Read-more{
+    color: white;
+    background: black;
+    font-size: 1.3rem;
+    border: 2px solid black;
+    font-family: Libre Baskerville, serif ;
+    padding-left: 23rem;
+    padding-top: 3rem;
+    
+}
+.Read-more:hover{
+    color: aquamarine;
+    cursor: pointer;
+    text-decoration: underline ;
+    text-underline-offset: 5px;
+}
+.work p{
+    color: white;
+    font-family: Libre Baskerville, serif ;
+    font-size: 1.5rem;
+    font-weight: 600;
+    writing-mode: vertical-rl;
+    margin: 0rem 10rem 0rem 10rem;
+    cursor: pointer;
+}
+.work p:hover,.Product:hover{
+    color: aquamarine;
+}
+.work{
+    display: flex;
+    padding: 7rem;
+}
+.Marketing{
+    height: 500px;
+    width: 400px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.Xyz{
+    height: 500px;
+    width: 400px;
+    padding-left: 8rem;
+    border-radius: 5px;   
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+.Super{
+    font-size: 2rem;
+    margin-top: 5rem;
+    color: white;
+    font-family: Libre Baskerville, serif ;
+}
+.Supermove-p{
+    color: white;
+}
+.Zenhub{
+    font-size: 2rem;
+    margin-top: 5rem;
+    color: white;
+    font-family: Libre Baskerville, serif ;
+    margin: 10rem 8.1rem;
+}
+.zenhub-span{
+    margin-left: 8.1rem ;
+    color: white;
+}

@@ -1,0 +1,22 @@
+.move-ing{
+    padding: 70px 0;
+    overflow: hidden;
+    background: black;
+    white-space: nowrap;
+}
+.Movinglogo{
+    display: inline-block;
+    animation: 8s slide infinite linear;
+}
+.Movinglogo img{
+    height: 90px;
+    margin: 0px 40px;
+}
+@keyframes slide{
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}

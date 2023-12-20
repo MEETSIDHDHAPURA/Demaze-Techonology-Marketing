@@ -1,0 +1,56 @@
+html body{
+    background: #000;
+}
+.Header{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.Items{
+    padding-right: 8rem;
+    display: flex;
+    color: aliceblue;
+    gap: 3.4rem;
+    font-size: 1.7rem;
+    font-family: Libre Baskerville, serif ;
+}
+.Logo{
+    padding-top: 1rem;
+    width: 30%;
+    padding-left: 7rem;
+}
+.home-Header:hover{
+    text-shadow: #ffffff 1px 0 20px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
+}
+.ourservices:hover{
+    text-shadow: #ffffff 1px 0 20px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
+}
+.aboutus:hover{
+    text-shadow: #ffffff 1px 0 20px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
+}
+.blogs:hover{
+    text-shadow: #ffffff 1px 0 20px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
+}
+.contact:hover{
+    text-shadow: #ffffff 1px 0 20px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
+}.faqs:hover{
+    text-shadow: #ffffff 1px 0 20px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
+}
