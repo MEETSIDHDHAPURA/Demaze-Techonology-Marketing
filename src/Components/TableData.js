@@ -9,7 +9,7 @@ import Xyz from "../Assats/images.jpeg";
 
 const TableData = () => {
   return (
-    <>
+    <div id="servuces">
       <div className="Product">
         <p>Services</p>
       </div>
@@ -18,10 +18,7 @@ const TableData = () => {
           <th>Web <br/> Development</th>
           <th>App <br/> Development</th>
           <th>Games <br/> Development</th>
-          <th>
-            Figma to <br />
-            webflow
-          </th>
+          <th>Figma to <br />webflow</th>
         </tr>
         <tr>
           <td>
@@ -79,7 +76,7 @@ const TableData = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -1,9 +1,10 @@
 import React from "react";
 import "./HomeStyle.css";
-import TableData from "../Components/TableData.js"
+import TableData from "../Components/TableData.js";
 import Footer from "./Footer.js";
 import Movinglogo from "./Movinglogos.js";
-import AboutUs from "./AboutUs.js"
+import AboutUs from "./AboutUs.js";
+import Contact from "./Contact.js";
 
 const Home = () => {
   return (
@@ -11,19 +12,19 @@ const Home = () => {
       <div className="home" id="home">
         <div className="text">
           <p className="home-text">
-            Offering a suite of <div className="enterprise"> Enterprise </div>{" "}
-            grade <br />
-            services to B2B Saas, VC's, Start-up's, <br />
-            and E-commerce
+            Demaze <span className="Technologies"> Technologies</span>: Get Demaze-d.
+            Results, not riddles Demaze the path to success. Empowering
+            transformation
           </p>
           <div className="your">
-            YOUR TRUSTED PARTNER FOR STRATEGY, BRAND, DESIGN, & DEV
-          </div>    
+            YOUR TRUSTED PARTNER FOR STRATEGY, BRAND, DESIGN, & WEB
+          </div>
         </div>
-          <Movinglogo/>
-          <TableData/>
-          <AboutUs/>
-          <Footer/>
+        <Movinglogo />
+        <TableData />
+        <AboutUs />
+        <Contact />
+        <Footer />
       </div>
     </>
   );

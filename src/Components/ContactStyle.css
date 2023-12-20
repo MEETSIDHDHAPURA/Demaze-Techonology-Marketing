@@ -1,0 +1,92 @@
+body{
+    color: aliceblue;
+}
+h1{
+    margin-top: 8rem;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
+    font-family: Libre Baskerville, serif ;
+}
+.Contactmain{
+    height: 550px;
+    width: 1200px;
+    border: 1px solid #ffffff28;
+    margin-left: 19.8rem;
+    margin-top: 5rem;
+    display: flex;
+    border-collapse: collapse;
+}
+.container{
+    width: 400px;
+    border: 1px solid #ffffff2f;
+}
+.container img{
+    height: 150px;
+    width: 150px;
+    margin: 3rem 3rem 2rem 3.5rem;
+    border-radius: 50%;
+}
+.free{
+    font-size: 2rem;
+    margin: 1rem 0 0 0;
+    padding: 0 0 2.5rem 4rem;
+    font-family: Libre Baskerville, serif ;
+}
+.Contact-text{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    padding: 0 3rem 0 3rem;
+    font-family: Libre Baskerville, serif ;
+}
+.Contact-First p{
+    font-size: 2rem;
+    margin: 3rem 0rem 2rem 3rem;
+    font-family: Libre Baskerville, serif ;
+}
+.Contact-First input{
+    color: aliceblue;
+    background: #000;
+    margin-left: 3rem;
+    text-decoration: none;
+    border: 1px solid #fff;
+    margin-bottom: 1.2rem;
+    padding: .6rem 10rem .6rem .5rem;
+}
+.ContactSubmit{
+    margin: .5rem 0rem 6rem 39.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: .8rem 2.2rem;
+    font-weight: 600;
+}
+.ContactSubmit:hover{
+    background: aquamarine;
+}
+.contactthird{
+    height: 168px;
+    width: 800px;
+    border: 1px solid #ffffff2d;
+}
+.Schedule{
+    padding-top: 1rem;
+    font-size: 2rem;
+    display: flex;
+    font-family: Libre Baskerville, serif ;
+
+}
+.email{
+    padding-left: 15rem;
+    cursor: pointer;
+    font-family: Libre Baskerville, serif ;
+
+}
+.email:hover{
+    color: aquamarine;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
+}
+
+
