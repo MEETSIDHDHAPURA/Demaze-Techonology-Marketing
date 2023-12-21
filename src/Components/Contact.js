@@ -31,9 +31,9 @@ function Contact() {
           <button className="ContactSubmit">Submit</button>
           <div className="contactthird">
             <p className="Schedule">
-              Schedule a call
+            (+91) 7016660537
               <div className="email">
-                hello@example.com
+              info@demaze.in
               </div>
             </p>
           </div>

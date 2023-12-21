@@ -66,6 +66,12 @@
         left: 4rem;
         padding: 0;   
     }
+    .AboutFirst{
+        z-index: -1;
+        width: 95%;
+        margin: 0;
+        padding: 0;
+    }
     .Abouttext{
         position: relative;
         top: 125.2rem;
