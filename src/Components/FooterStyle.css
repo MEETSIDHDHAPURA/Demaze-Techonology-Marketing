@@ -57,16 +57,22 @@
     color: black;
     letter-spacing: 1px;
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 768px) {
     .footer{
         padding: 4rem 2rem;
+        position: relative;
+        top: 155rem;
     }
     .bottom div{
         width: 50%;
     }
-}
-@media screen and (max-width: px) {
-    .footer i{
-        margin: 1rem 1rem 0 0;
+    .right{
+        margin: 3rem 0rem 0rem 0rem;
+        background: #ffffffdc;
+        position: relative;
+        top: 150rem;
+        width: auto;
+        overflow: hidden;
     }
+
 }

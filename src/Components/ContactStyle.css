@@ -1,5 +1,5 @@
 body{
-    color: aliceblue;
+    color: #fff;
 }
 h1{
     margin-top: 8rem;
@@ -45,11 +45,13 @@ h1{
     margin: 3rem 0rem 2rem 3rem;
     font-family: Libre Baskerville, serif ;
 }
+.Contact-First p:hover{
+    transform: translateY();
+}
 .Contact-First input{
-    color: aliceblue;
+    color: white;
     background: #000;
     margin-left: 3rem;
-    text-decoration: none;
     border: 1px solid #fff;
     margin-bottom: 1.2rem;
     padding: .6rem 10rem .6rem .5rem;
@@ -65,9 +67,10 @@ h1{
     background: aquamarine;
 }
 .contactthird{
-    height: 168px;
+    height: 167.5px;
     width: 800px;
     border: 1px solid #ffffff2d;
+    display: grid;
 }
 .Schedule{
     padding-top: 1rem;
@@ -88,5 +91,46 @@ h1{
     text-decoration-thickness: 1px;
     text-underline-offset: 5px;
 }
+@media screen and (max-width: 768px) {
+    .Contact-h1{
+      padding: 0;
+      margin: 0;
+      position: relative; 
+      top: 155rem; 
+      display: none;
 
+    }
+    .Contactmain{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        top: 160rem;
+        flex-direction: column;
+        display: none;
+
+    }
+    .container{
+        width: auto;
+        display: none;
+
+    }
+    .Contact-text{
+        font-size: 1.2rem;
+        margin-top: 0rem;
+        padding: 0 3rem 2rem 3rem;
+        display: none;
+    }
+    .Contact-First{
+        display: none;
+    }
+    .Contact-First p{
+        display: none;
+    }
+    .Contact-First input{
+        display: none;
+    }
+    .Contact-First form{
+        display: none;
+    }
+}
 

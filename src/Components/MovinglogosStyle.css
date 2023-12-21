@@ -6,7 +6,7 @@
 }
 .Movinglogo{
     display: inline-block;
-    animation: 8s slide infinite linear;
+    animation: 10s slide infinite linear;
 }
 .Movinglogo img{
     height: 90px;
@@ -18,5 +18,10 @@
     }
     to{
         transform: translateX(-100%);
+    }
+}
+@media screen and (max-width: 768px) {
+    .move-ing{
+        padding: 8rem 0 4rem 0;
     }
 }

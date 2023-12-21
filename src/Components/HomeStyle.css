@@ -54,3 +54,24 @@
         transform: translateX(0%);
     }
 }
+@media screen and (max-width: 768px) {
+    .Technologies{
+        background: rgba(255, 149, 28, 0.808);
+        padding: 0;
+        display: inline-block;
+        border-radius: 2px;
+    }
+    .home{
+        height: 100%;
+        width: auto;
+    }
+    .home-text{
+        font-size: 2rem;
+    }
+    .your{
+        color: white;
+        font-family: Libre Baskerville, serif ;
+        animation: 2.5s linear;
+        animation-name: text;
+    }
+}

@@ -5,7 +5,7 @@ import Profile from "../Assats/Contact.jpeg";
 function Contact() {
   return (
     <>
-      <h1>Contact</h1>
+      <h1 className="Contact-h1">Contact</h1>
       <div className="Contactmain" id="contact">
         <div className="container">
           <img alt="Contact-photo" src={Profile}></img>
@@ -31,13 +31,11 @@ function Contact() {
           <button className="ContactSubmit">Submit</button>
           <div className="contactthird">
             <p className="Schedule">
-              <i class="fa-sharp fa-solid fa-calendar-circle-user"></i>
               Schedule a call
               <div className="email">
                 hello@example.com
               </div>
             </p>
-
           </div>
         </div>
       </div>

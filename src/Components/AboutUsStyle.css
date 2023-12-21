@@ -10,7 +10,7 @@
     margin-top: 150px;
     display: flex;
 }
-.AboutFirst img{
+.Aboutfirstphoto{
     height: 300px;
     width: 300px;
     border-radius: 50%;
@@ -54,4 +54,74 @@
     border-radius: 50%;
     margin-right: 10rem;
     margin-left: 5rem;
+}
+@media screen and (max-width: 768px) {
+    .Aboutfirstphoto {
+        position: relative;
+        height: 350px;
+        width: 280px;
+        border-radius: 5px;
+        margin: 0;
+        top: 103.5rem;
+        left: 4rem;
+        padding: 0;   
+    }
+    .Abouttext{
+        position: relative;
+        top: 125.2rem;
+        right: 13rem;
+        padding: 0;
+        margin: 0;
+    }
+    #about{
+        padding: 0;
+        margin: 0;
+    }
+    .Littel{
+        position: relative;
+        text-align: center;
+        font-size: 1.8rem;
+        top: 110rem; 
+        text-decoration-thickness: 2px;
+        text-underline-offset: 7px;     
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .Who{
+        position: relative;
+        text-align: center;
+    }
+    .AboutSecond{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 128rem;
+    }
+    .About-2{
+        position: relative;
+        height: 350px;
+        width: 280px;
+        border-radius: 5px;
+        margin: 0;
+        padding: 0;
+        right: 5rem;
+    }
+    .Best{
+        padding: 0;
+        margin: 0;
+        position: relative;
+        top: 22.5rem;
+        left: 4.5rem;
+        width: 250px;
+    }
+    .What{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .photo-aboutus{
+        position: relative;
+        
+    }
 }

@@ -13,7 +13,7 @@ const  Header = () =>{
             <AnchorLink href="#home" className="home-Header">Home</AnchorLink>
             <AnchorLink href="#services" className="ourservices">Ourservices</AnchorLink>
             <AnchorLink href="#about" className="aboutus">AboutUs</AnchorLink>
-            <AnchorLink href="#home" className="blogs">blog</AnchorLink>
+            <AnchorLink href="#work" className="Work">Work</AnchorLink>
             <AnchorLink href="#contact" className="contact">Contact</AnchorLink>
             </div>
         </div>

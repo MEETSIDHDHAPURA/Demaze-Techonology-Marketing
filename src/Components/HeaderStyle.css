@@ -13,7 +13,7 @@ html body{
     color: white;
     text-decoration: none;
 }
-.blogs{
+.Work{
     color: white;
     text-decoration: none;
 }
@@ -38,8 +38,7 @@ html body{
 .Logo{
     width: 30%;
     margin-left: 7rem;
-    display: block;
-    
+    display: block;  
 }
 .home-Header:hover{
     color: aquamarine;
@@ -59,7 +58,7 @@ html body{
     text-decoration-thickness: 1px;
     text-underline-offset: 5px;
 }
-.blogs:hover{
+.Work:hover{
     color: aquamarine;
     text-decoration: underline;
     text-decoration-thickness: 1px;
@@ -70,4 +69,18 @@ html body{
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 5px;
+}
+@media screen and (max-width: 768px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .Items{
+        display: none;
+    }
+    .Logo{
+        width: 30%;
+        margin-left: 2rem;
+        padding-bottom: 2rem; 
+    }
 }
