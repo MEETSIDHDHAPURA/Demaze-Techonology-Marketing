@@ -1,12 +1,26 @@
-import React from "react";
+import React, { Component } from "react";
 import Img from "../Assats/Demaxe-logo.png"
 import "./HeaderStyle.css"
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import { MenuItem } from "./MenuItem.js";
 
 
-const  Header = () =>{
+
+class Header extends Component {
+    state = {clicked: false};
+    handleClick = () => {
+        this.setState({clicked: !this.state.clicked});
+    }
+    render(){
     return(
         <>
+        <div className="menu-icons" onClick={this.handleClick}>
+                    <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
+                </div>
+                <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
+                    {MenuItem.map((item, index) =>{
+                    })}
+                </ul>
         <div className="Header">
             <AnchorLink href="#home"><img alt="logo" src={Img} className="Logo"></img></AnchorLink>
             <div className="Items">
@@ -19,6 +33,7 @@ const  Header = () =>{
         </div>
         </>
     )
+}
 }
 
 export default Header

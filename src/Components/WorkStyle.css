@@ -6,6 +6,10 @@
     writing-mode: vertical-rl;
     margin: 0rem 10rem 0rem 10rem;
     cursor: pointer;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1rem;
+    height: 150px;
 }
 .work p:hover,.Product:hover{
     color: aquamarine;
