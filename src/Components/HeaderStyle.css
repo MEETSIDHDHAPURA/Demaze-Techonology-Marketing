@@ -1,23 +1,24 @@
 html body{
     background: #000;
+    color: #fff;
 }
 .home-Header{
     color: white;
     text-decoration: none;
 }
-.ourservices{
+.ourservices-header{
     color: white;
     text-decoration: none;
 }
-.aboutus{
+.aboutus-header{
     color: white;
     text-decoration: none;
 }
-.Work{
+.Work-header{
     color: white;
     text-decoration: none;
 }
-.contact{
+.contact-header{
     color: white;
     text-decoration: none;
 }
@@ -30,7 +31,6 @@ html body{
 .Items{
     padding-right: 8rem;
     display: flex;
-    color: aliceblue;
     gap: 3.4rem;
     font-size: 1.7rem;
     font-family: Libre Baskerville, serif ;
@@ -46,89 +46,113 @@ html body{
     text-decoration-thickness: 1px;
     text-underline-offset: 5px;
 }
-.ourservices:hover{
+.ourservices-header:hover{
     color: aquamarine;
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 5px;
 }
-.aboutus:hover{
+.aboutus-header:hover{
     color: aquamarine;
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 5px;
 }
-.Work:hover{
+.Work-header:hover{
     color: aquamarine;
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 5px;
 }
-.contact:hover{
+.contact-header:hover{
     color: aquamarine;
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 5px;
-}
-.nav-menu{
-    display: none;
-}
-.nav-menu.active{
-    display: none;
 }
 .menu-icons {
     display:none;
   }
-@media screen and (max-width: 768px) {
+  .nav-menu{
+    list-style: none;
+  }
+
+  .nav-links{
+    display: none;
+  }
+
+  @media screen and (max-device-width:1024px) {
+    .Items{
+      margin: 0rem 3rem 0 0;
+      padding: 0rem;
+      display: flex;
+      gap: 2rem;
+      font-size: 1.2rem;
+      font-family: Libre Baskerville, serif ;
+  }
+    .Logo{
+      width: 33%;
+      margin: 0rem 0 0 5rem;
+      display: block;  
+  }
+      .menu-icons {
+        display: none;
+      }
+}
+@media screen and (max-device-width:768px) {
     body{
         margin: 0;
         padding: 0;
     }
-    .Items{
-        display: none;
+    .Responsiv{
+        display: flex;
     }
     .Logo{
-        width: 60%;
+        z-index: -1;
+        display: flex;
+        width: 100%;
         margin-left: 2rem;
         padding-bottom: 2rem; 
-    }
-    .Items{
-        position: relative;
-        padding: 0rem;
-        gap: 0rem;
-        flex-direction: column;
     }
     .nav-menu {
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        background: #000;
+        justify-content: center;
+        background: #000000ef;
         width: 100%;
-        height: auto;
+        height: 35.8rem;
+        list-style: none;
         position: absolute;
-        top: 0;
+        top: 8rem;
         left: -100%;
         opacity: 0;
-        align-items: stretch;
-        padding: 80px 0px 30px 0px;
+        text-align: center;
+        padding: 0px;
         margin: 0;
-        transition: 0.3s ease-in-out;
-        border-radius: 13px;
+        transition: 0.4s ease-in-out;
+      }
+      .nav-links{
+       display: block;
+       width: 100%;
+       font-size: 1.2rem;
+       padding: 1.8rem  0;
+       color: #fff;
+       text-decoration: none;
       }
       .nav-menu.active {
         left: 0;
         opacity: 1;
-        z-index: -1;
-        transition: 0.3s ease-in-out;
+        z-index: 0;
+        transition: 0.4s ease-in-out;
       }
       .menu-icons {
+        margin: 4rem 0rem 0 8rem ;
         display: block;
         cursor: pointer;
       }
       .menu-icons i {
+        right: -4.5rem;
         font-size: 1.2rem;
-        color: #222;
-        padding: 0px 1.2rem;
       }
       .nav-links-mobile {
         display: block;
@@ -136,10 +160,9 @@ html body{
         padding: 1.5rem;
         margin: auto;
         border-radius: 4px;
-        widows: 88%;
+        width: 80%;
         background: #01959a;
         text-decoration: none;
-        color: #fff;
         font-size: 1.2rem;
         font-weight: 700;
         letter-spacing: 2px;
@@ -149,4 +172,39 @@ html body{
         margin-top: 3rem;
         gap: 0rem;
     }
+    .home-Header{
+        display: none;
+    }
+    .ourservices-header{
+        display: none;
+    }
+    .aboutus-header{
+        display: none;
+    }
+    .contact-header{
+        display: none;
+    }
+    .Work-header{
+        display: none;
+    }
+
 }
+@media screen and (max-device-width:425px) {
+    .menu-icons {
+      margin: 4rem 0 0 7rem;
+      display: block;
+      cursor: pointer;
+    }
+}
+
+@media screen and (max-device-width:375px) {
+      .menu-icons {
+        margin: 4rem 0 0 4rem;
+        display: block;
+        cursor: pointer;
+      }
+      .menu-icons i {
+        font-size: 1.2rem;
+      }
+}
+

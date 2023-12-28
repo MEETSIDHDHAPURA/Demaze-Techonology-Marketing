@@ -57,11 +57,9 @@
     color: black;
     letter-spacing: 1px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-device-width:1024px) {
     .footer{
         padding: 4rem 2rem;
-        position: relative;
-        top: 155rem;
     }
     .bottom div{
         width: 50%;
@@ -69,10 +67,28 @@
     .right{
         margin: 3rem 0rem 0rem 0rem;
         background: #ffffffdc;
-        position: relative;
-        top: 150rem;
         width: auto;
-        overflow: hidden;
+    }
+    .Footer-logo img{
+        width: 20%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .footer{
+        padding: 4rem 2rem;
+    }
+    .bottom div{
+        width: 50%;
+    }
+    .right{
+        margin: 3rem 0rem 0rem 0rem;
+        background: #ffffffdc;
+        width: auto;
+    }
+    .Footer-logo img{
+        width: 20%;
     }
 
 }

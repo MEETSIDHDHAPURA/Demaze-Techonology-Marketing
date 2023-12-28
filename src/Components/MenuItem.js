@@ -6,20 +6,26 @@ export const MenuItem = [
          
     },
     {
-        title : "About",
-        url : "/about",
+        title : "OurService",
+        url : "/ourservice",
+        cName : "nav-links",
+
+    },
+    {
+        title : "About Us",
+        url : "/aboutus",
         cName : "nav-links",
     },
     {
-        title : "Service",
-        url : "/service",
+        title : "Work",
+        url : "/work",
         cName : "nav-links",
-
     },
     {
         title : "Contact",
         url : "/contact",
         cName : "nav-links",
     },
+
 ]
 export default MenuItem

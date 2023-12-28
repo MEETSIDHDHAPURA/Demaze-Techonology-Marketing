@@ -7,22 +7,22 @@ function Work() {
     <>
     <div className="work" id="work">
       <p>Work</p>
-      <div>
+      <div className="work-marketing-img1">
         <img className="Marketing" alt="marketing" src={Marketing}></img>
-        <span className="Super">
+        <div className="Super">
           Supermove <br />
-        </span>
+        </div>
         <sapn className="Supermove-p">
           Supermove came to us looking for a complete overhaul. We started with
           some in-depth research on their business and their users to help us
         </sapn>
       </div>
-      <div>
+      <div className="work-marketing-img2">
         <img className="Xyz" alt="imgs" src={Xyz}></img>
-        <span className="Zenhub">
+        <div className="Zenhub">
           Zenhub
           <br />
-        </span>
+        </div>
         <div className="zenhub-span">
           Supermove came to us looking for a complete overhaul. We started with
           some in-depth research on their business and their users to help us

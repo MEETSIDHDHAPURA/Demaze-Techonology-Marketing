@@ -1,5 +1,6 @@
 .meet-service{
   display: flex;
+  height: 100%;
 }
 .Product {
   color: white;
@@ -11,6 +12,7 @@
   position: -webkit-sticky;
   top: 1rem;
   height: 100px;
+  text-align: center;
   font-family: Libre Baskerville, serif;
 }
 .div-table {
@@ -89,17 +91,17 @@
   text-underline-offset: 5px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-device-width: 1024px) {
   .Product {
-    position: relative;
     writing-mode: horizontal-tb;
     padding: 0;
-    margin-bottom: 5rem;
+    margin: 0;
+    position: static;
   }
   .div-table {
     border: 1px solid #ffffff28;
     margin: 0;
-    height: 18rem;
+    height: 100% ;
     width: auto;
     flex-direction: column;
   }
@@ -108,7 +110,6 @@
     font-size: 1.3rem;
     padding: 2rem 3rem 5rem 2.5rem;
   }
-  
   .app-d {
     border: 1px solid #ffffff69;
     font-size: 1.3rem;
@@ -137,10 +138,96 @@
     display: none;
   }
   .Read-more {
-    position: relative;
+    display: none;
+ }
+ .meet-service{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+ }
+}
+
+@media screen and (max-device-width: 768px) {
+  .Product {
+    writing-mode: horizontal-tb;
     padding: 0;
     margin: 0;
-    top: 75rem;
-    left: 1.2rem;
+    position: static;
+  }
+  .div-table {
+    border: 1px solid #ffffff28;
+    margin: 0;
+    height: 100% ;
+    width: auto;
+    flex-direction: column;
+  }
+  .web-d {
+    border: 1px solid #ffffff69;
+    font-size: 1.3rem;
+    padding: 2rem 3rem 5rem 2.5rem;
+  }
+  .app-d {
+    border: 1px solid #ffffff69;
+    font-size: 1.3rem;
+    padding: 2rem 3rem 5rem 2.5rem;
+  }
+  .game-d {
+    border: 1px solid #ffffff69;
+    font-size: 1.3rem;
+    padding: 2rem 3rem 5rem 2.5rem;
+  }
+  .figma-d {
+    border: 1px solid #ffffff69;
+    font-size: 1.3rem;
+    padding: 2rem 3rem 5rem 2.5rem;
+  }
+  .Circles {
+    display: none;
+  }
+  .Square {
+    display: none;
+  }
+  .Toy {
+    display: none;
+  }
+  .Triangle {
+    display: none;
+  }
+  .Read-more {
+    display: none;
  }
+ .meet-service{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+ }
+}
+
+
+@media screen and (max-device-width:480px) {
+  .div-table {
+    width: 100%;
+  }
+  .web-d {
+    font-size: 1rem;
+    padding: 2rem 3rem 3rem 2.5rem;
+  }
+  .app-d {
+    font-size: 1rem;
+    padding: 2rem 3rem 3rem 2.5rem;
+  }
+  .game-d {
+    font-size: 1rem;
+    padding: 2rem 3rem 3rem 2.5rem;
+  }
+  .figma-d {
+    font-size: 1rem;
+    padding: 2rem 3rem 3rem 2.5rem;
+  }
+  .Read-more{
+    display: none
+  }
+  .meet-service{
+    height: 100%;
+  }
 }

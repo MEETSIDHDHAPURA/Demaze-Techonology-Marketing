@@ -20,8 +20,19 @@
         transform: translateX(-100%);
     }
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-device-width:1024px) {
     .move-ing{
+        position: relative;
+        z-index: -5;
+        padding: 5rem 0 6rem 0;
+    }
+}
+
+@media screen and (max-device-width: 768px) {
+    .move-ing{
+        position: relative;
+        z-index: -5;
         padding: 6rem 0 6rem 0;
     }
 }

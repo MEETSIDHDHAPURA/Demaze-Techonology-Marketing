@@ -34,7 +34,6 @@
 }
 .Super{
     font-size: 2rem;
-    margin-top: 5rem;
     color: white;
     font-family: Libre Baskerville, serif ;
 }
@@ -43,68 +42,188 @@
 }
 .Zenhub{
     font-size: 2rem;
-    margin-top: 5rem;
     color: white;
     font-family: Libre Baskerville, serif ;
-    margin: 10rem 8.1rem;
+    margin-left: 8.1rem;
 }
 .zenhub-span{
     margin-left: 8.1rem ;
     color: white;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-device-width: 1024px) {
+    .work{
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        flex-direction: column;
+        display: block;
+    }
     .work p{
-        position: relative;
+        padding-top: 4rem;
         writing-mode: horizontal-tb;
-        margin: 0rem;
-        padding: 0rem;
-        top: 73rem;
-        left: 4rem;
+        position: static;
+        margin: 0;
+        height: 5rem;
+        width: 100%;
+        text-align: center;
     }
     .Marketing{
         margin: 0;
         padding: 0;
-        position: relative;
         width: 300px;
         height: 400px;
-        border-radius: 2px;
-        top: 79rem;
-        right: 7.3rem;
+        margin: 0 35.3%;
     }
     .Super{
-        font-size: 1.3rem;
-        margin: 0;
-        position: relative;
-        top: 79.5rem;
-        right: 7.2rem;
+        font-size: 1.5rem;
+        margin: 0 35.3%;
     }
     .Supermove-p{
-        position: relative;
-        top: 80rem;
         font-size: .8rem;
-        right: 7.1rem;
+        width: 100%;
     }
     .Xyz{
         margin: 0;
         padding: 0;
-        position: relative;
         width: 300px;
         height: 400px;
-        border-radius: 2px;
-        top: 113rem;
-        right: 26rem;
+        margin: 0 35.3%;
     }
     .Zenhub{
-        position: relative;
-        top: 113.5rem;
-        font-size: 1.3rem;
-        right: 34rem;
+        font-size: 1.5rem;
+        margin: 0 35.3%;
     }
     .zenhub-span{
-        position: relative;
-        top: 114rem;
+        margin: 1rem 0 0 0 ;
         font-size: .8rem;
-        right: 34rem;
+        width: 100%;
+    }
+    .work-marketing-img1{
+        margin-bottom: 2rem;
     }
 }
+
+
+@media screen and (max-width: 768px) {
+    .work{
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        flex-direction: column;
+        display: block;
+    }
+    .work p{
+        padding-top: 4rem;
+        writing-mode: horizontal-tb;
+        position: static;
+        margin: 0;
+        height: 5rem;
+        width: 100%;
+        text-align: center;
+    }
+    .Marketing{
+        width: 250px;
+        height: 300px;
+        border-radius: 2px;
+        margin: 0 33.5%;
+    }
+    .Super{
+        font-size: 1.5rem;
+        margin: 0 33.5%;
+    }
+    .Supermove-p{
+        font-size: .8rem;
+        width: 100%;
+    }
+    .Xyz{
+        margin: 0;
+        padding: 0;
+        width: 250px;
+        height: 300px;
+        border-radius: 2px;
+        margin: 0 33.5%;
+    }
+    .Zenhub{
+        font-size: 1.5rem;
+        margin: 0 33.5%;
+    }
+    .zenhub-span{
+        margin: 1rem 0 0 0 ;
+        font-size: .8rem;
+        width: 100%;
+    }
+    .work-marketing-img1{
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-device-width:430px) {
+    .Marketing{
+        margin: 0 20%;  
+    }
+    .Super{
+        margin: 0 20%;  
+    }
+    .Xyz{
+        width: 240px;
+        height: 300px;
+        margin: 0 20%;  
+    }
+    .Zenhub{
+        font-size: 1.5rem;
+        margin: 0 20%;  
+    }
+}
+@media screen and (max-device-width:400px) {
+    .Marketing{
+        margin: 0 17%;  
+    }
+    .Super{
+        margin: 0 17%;  
+    }
+    .Xyz{
+        width: 240px;
+        height: 300px;
+        margin: 0 17%;  
+    }
+    .Zenhub{
+        font-size: 1.5rem;
+        margin: 0 17%;  
+    }
+}
+@media screen and (max-device-width:375px) {
+    .Marketing{
+        width: 240px;
+        height: 300px;
+        margin: 0 16%;  
+    }
+    .Xyz{
+        width: 240px;
+        height: 300px;
+        margin: 0 16%;  
+    }
+}
+@media screen and (max-device-width:320px) {
+    .work{
+        height: 100%;
+    }
+    .Marketing{
+        width: 240px;
+        height: 300px;
+        margin: 0 12%;  
+    }
+    .Super{
+        margin: 0 12%;  
+    }
+    .Xyz{
+        width: 240px;
+        height: 300px;
+        margin: 0 12%;  
+    }
+    .Zenhub{
+        margin: 0 12%;  
+    }
+}
+
+
