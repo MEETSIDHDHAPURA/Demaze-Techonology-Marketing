@@ -1,63 +1,51 @@
-import React, { Component } from "react";
-import Img from "../Assats/Demaxe-logo.png";
+import { useState } from "react";
 import "./HeaderStyle.css";
-import AnchorLink from "react-anchor-link-smooth-scroll";
-import { MenuItem } from "./MenuItem.js";
-import { Link } from "react-router-dom";
 
-class Header extends Component {
-  state = { clicked: false };
-  handleClick = () => {
-    this.setState({ clicked: !this.state.clicked });
+const Header = () => {
+  const [menu, setMenu] = useState(false);
+
+  const handleClick = () => {
+    setMenu(!menu);
   };
-  render() {
-    return (
-      <>
-        <div className="Responsiv">
-          <div className="Header">
-            <div className="logo-div">
-              <a href="#home">
-                <img alt="logo" src={Img} className="Logo"></img>
-              </a>
-            </div>
-            <div className="Items">
-              <a href="#home" className="home-Header">
-                Home
-              </a>
-              <a href="#services" className="ourservices-header">
-                Ourservices
-              </a>
-              <a href="#about" className="aboutus-header">
-                AboutUs
-              </a>
-              <a href="#work" className="Work-header">
-                Work
-              </a>
-              <a href="#contact" className="contact-header">
-                Contact
-              </a>
-            </div>
-          </div>
-          <div className="menu-icons" onClick={this.handleClick}>
-            <i
-              className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
-            ></i>
-          </div>
-          <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
-            {MenuItem.map((item, index) => {
-              return (
-                <li key={index}>
-                  <Link className={item.cName} to={item.url}>
-                    {item.title}
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
+
+  return (
+    <>
+      <div className="header-container">
+        <div className="header-logo">
+          <img
+            alt=""
+            src="/demazeLogo.png"
+            className="logo-img"
+          />
         </div>
-      </>
-    );
-  }
-}
+        <div className="desktop-menu">
+          <div className="menu-links">
+            <p>About</p>
+            <p>Contact</p>
+            <p>Career</p>
+            <p className="menu-blog">Blogs</p>
+          </div>
+          <button variant="contained">Get</button>
+        </div>
+        <div className="mobile-menu-icon" onClick={handleClick}>
+          {menu ? <p>Close</p> : <p>Icon</p>}
+        </div>
+      </div>
+
+      {menu && (
+        <div className="mobile-menu">
+          <div className="mobile-menu-content">
+            <ul>
+              <li>About</li>
+              <li>Contact</li>
+              <li>Career</li>
+              <li>Blogs</li>
+            </ul>
+          </div>
+        </div>
+      )}
+    </>
+  );
+};
 
 export default Header;
