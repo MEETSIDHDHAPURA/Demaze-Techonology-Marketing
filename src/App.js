@@ -2,13 +2,13 @@ import React from "react";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 
-const App = () =>{
-  return(
+const App = () => {
+  return (
     <>
-    <Header/>
-    <Home></Home>
+      <Header />
+      <Home />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
