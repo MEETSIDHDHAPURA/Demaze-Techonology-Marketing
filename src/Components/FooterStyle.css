@@ -48,13 +48,13 @@
     color: #fafafa;
 }
 .right{
-    padding: 1px 0px;
-    font-size: 15px;
-    font-weight: 700;
+    padding: 0px 0px 24px 0px;
+    font-size: 18px;
+    font-weight: 600;
     margin: 3rem 0rem 0rem 0rem;
     text-align: center;
-    background: #ffffffdc;
-    color: black;
+    background: #000;
+    color: white;
     letter-spacing: 1px;
 }
 @media screen and (max-device-width:1024px) {
@@ -66,7 +66,7 @@
     }
     .right{
         margin: 3rem 0rem 0rem 0rem;
-        background: #ffffffdc;
+        background: #000;
         width: auto;
     }
     .Footer-logo img{
