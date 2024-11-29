@@ -1,7 +1,6 @@
 import React from "react";
 import "./HomeStyle.css";
-import TableData from "../Components/TableData.js";
-import Footer from "./Footer.js";
+
 import Movinglogo from "./Movinglogos.js";
 import AboutUs from "./AboutUs.js";
 import Contact from "./Contact.js";
@@ -21,10 +20,9 @@ const Home = () => {
           </div>
         </div>
         <Movinglogo />
-        <TableData />
+        {/* <TableData /> */}
         <AboutUs />
-        <Contact />
-        <Footer />
+        {/* <Contact /> */}
       </div>
     </>
   );

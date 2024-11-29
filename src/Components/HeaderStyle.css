@@ -59,13 +59,18 @@ html body {
   height: 100%;
 }
 .mobile-menu-content {
-  background: red;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(16px);
   padding: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .mobile-menu-content ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  text-align: center;
+  list-style: none;
 }
 .mobile-menu-content li {
   padding: 8px;
@@ -89,7 +94,11 @@ button:active {
   background-color: #1c0056;
 }
 
-/* Responsive styles */
+@media (min-width: 1024px) {
+  .mobile-menu {
+    display: none;
+  }
+}
 @media (max-width: 768px) {
   .desktop-menu {
     display: none;

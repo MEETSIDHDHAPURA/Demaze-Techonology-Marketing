@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./HeaderStyle.css";
+import { IoMdClose, IoMdMenu } from "react-icons/io";
 
 const Header = () => {
   const [menu, setMenu] = useState(false);
@@ -12,11 +13,7 @@ const Header = () => {
     <>
       <div className="header-container">
         <div className="header-logo">
-          <img
-            alt=""
-            src="/demazeLogo.png"
-            className="logo-img"
-          />
+          <img alt="" src="/demazeLogo.png" className="logo-img" />
         </div>
         <div className="desktop-menu">
           <div className="menu-links">
@@ -28,7 +25,15 @@ const Header = () => {
           <button variant="contained">Get</button>
         </div>
         <div className="mobile-menu-icon" onClick={handleClick}>
-          {menu ? <p>Close</p> : <p>Icon</p>}
+          {menu ? (
+            <p>
+              <IoMdClose />
+            </p>
+          ) : (
+            <p>
+              <IoMdMenu />
+            </p>
+          )}
         </div>
       </div>
 
