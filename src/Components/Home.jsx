@@ -1,9 +1,9 @@
 import React from "react";
 import "./HomeStyle.css";
 
-import Movinglogo from "./Movinglogos.js";
-import AboutUs from "./AboutUs.js";
-import Contact from "./Contact.js";
+import Movinglogo from "./Movinglogos.jsx";
+import AboutUs from "./AboutUs.jsx";
+import Contact from "./Contact.jsx";
 
 const Home = () => {
   return (
